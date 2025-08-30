@@ -33,7 +33,7 @@ function TodoList(props) {
     const handleKeyPress = (event, id) =>{
       if (event.key === 'Enter'){
         handleSave(id)
-      }else if(e.key === 'Escape'){
+      }else if(event.key === 'Escape'){
         handleCancel()
       }
     }

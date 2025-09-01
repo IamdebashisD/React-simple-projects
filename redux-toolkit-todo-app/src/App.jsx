@@ -7,6 +7,10 @@ import edit from './assets/edit.png'
 import todolist from './assets/to-do-list.png'
 import saveicon from './assets/saveicon.png'
 import cancle from './assets/cancle.png'
+import visible from './assets/visible.png'
+import invisible from './assets/invisible.png'
+import checked from './assets/checked.png'
+import unchecked from './assets/unchecked.png'
 
 
 
@@ -26,6 +30,12 @@ function App() {
           editIcon={edit}
           saveIcon={saveicon}
           cancelIcon={cancle}
+
+          visible={visible}
+          invisible={invisible}
+
+          checked = {checked}
+          unchecked = {unchecked}
         />
       </main>
     </>

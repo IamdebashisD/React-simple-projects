@@ -110,7 +110,7 @@ function TodoList(props) {
                   :
                   (
                     <>
-                      <span className={`flex-1 font-medium ${todo.checked && 'line-through text-green-600' }`}>{todo.invisible ? '---' : todo.text}</span>
+                      <span className={`flex-1 font-medium ${todo.checked && 'line-through text-green-600' }`}>{todo.invisible ? '*********' : todo.text}</span>
                       <button
                         className='px-3 py-1 rounded-md bg-[#2A4D69] hover:bg-[#1E3A5F] absolute'
                         onClick={() => handleUpdate(todo.id, todo.text)}
@@ -144,7 +144,7 @@ function TodoList(props) {
                       <button
                         className={`px-3 py-1 text-sm font-medium text-white transition-colors rounded-md
                           ${todo.checked? 
-                            'bg-gray-600 cursor-not-allowed opacity-60' 
+                            'bg-gray-600 opacity-60' 
                             : ' bg-[#401B1C] hover:bg-[#2E1314]' 
                           }`}
                           

@@ -2,10 +2,12 @@ import { createSlice, nanoid } from '@reduxjs/toolkit'
 
 const initialState = {
     todos: [
-        {id: 1, text: 'hello world!', invisible: false,checked: false},
+        {id: 1, text: 'Hello world!', invisible: false,checked: false},
         {id: 2, text: 'Python', invisible: false,checked: false},
         {id: 3, text: 'React', invisible: false,checked: false},
-        {id: 4, text: 'JavaScript', invisible: false,checked: false}
+        {id: 4, text: 'JavaScript', invisible: false,checked: false},
+        {id: 5, text: 'Github', invisible: false,checked: false},
+        {id: 6, text: 'Flask', invisible: false,checked: false}
     ]
 }
 
